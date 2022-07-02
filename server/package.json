@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "forever start server.js",
+    "stopall": "forever stopall"
+  },
+  "homepage": "https://github.com/EduarteXD/bookManager",
+  "keywords": [],
+  "author": "EduarteXD",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "forever": "^4.0.3",
+    "mysql2": "^2.3.3",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.1"
+  }
+}
