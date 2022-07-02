@@ -137,22 +137,31 @@ SET FOREIGN_KEY_CHECKS = 1;
 git clone git@github.com:aub123/BookManager.git
 ```
 
-在/bookManager目录下创建.env配置文件
+在**./bookManager**目录下创建**.env**配置文件
 
-```
+```shell
 SQL_HOST=localhost
 DB_NAME=库名
 DB_USER=用户名
 DB_PWD=密码
 ```
 
-运行
+前端运行
 
 ```shell
+cd client
 pnpm install
 pnpm start
 ```
 
 
+
+后端运行
+
+```shell
+cd server
+pnpm install
+nodemon server.js
+```
 
 你可以在.env文件中添加PORT字段来更改服务端监听端口
